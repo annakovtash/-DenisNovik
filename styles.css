@@ -1,0 +1,219 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+section {
+  width: 100%;
+}
+.wrapper {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navigation_block {
+  text-align: center;
+  flex-direction: row;
+  -ms-flex-align: stretch;
+}
+#navigation {
+  display: flex;
+  padding: 0px 0 0 0;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  justify-content: space-between;
+}
+#navigation > li {
+  list-style: none;
+}
+.hover:hover {
+  color: black;
+  cursor: pointer;
+}
+hr {
+  width: 940.6px;
+  height: 0px;
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#personal_information {
+  display: flex;
+  justify-content: space-between;
+}
+#personal_photo > img {
+  width: 943.61px;
+  height: 387px;
+  margin-bottom: 50px;
+}
+
+#name_block {
+  font-family: Gilroy-Bold;
+  font-size: 25px;
+  color: #070707;
+}
+#info_block {
+  align-self: flex-end;
+  margin-bottom: 33.5px;
+  font-family: Gilroy-medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#language_block {
+  align-self: center;
+  margin: 0px 0px 0px 33.5px;
+
+  height: 25px;
+  display: flex;
+  list-style: none;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 20px;
+
+  padding: 0px;
+  color: #828282;
+  transform: rotate(-90deg);
+  transform-origin: 82% 0%;
+  justify-content: flex-start;
+}
+#language_block > li {
+  margin-right: 5px;
+}
+#about_me {
+  height: 506px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  background-color: #f6f6f6;
+}
+#about_me > h3 {
+  margin-top: 90px;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+#about_me > p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+  margin-bottom: 50px;
+}
+#skills {
+  width: 100%;
+  text-align: center;
+
+  margin-top: 600px;
+}
+#skills > h3 {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+#skills > p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.icons > img {
+  display: inline-block;
+  line-height: 100%;
+  padding: 25px 25px 100px 25px;
+}
+#portfolio {
+  background-color: #f6f6f6;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+#portfolio > h3 {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  margin-top: 65px;
+}
+#portfolio > img {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  width: 936.24px;
+  height: 522px;
+}
+p > a {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+#contacts {
+  text-align: center;
+  margin-top: 2200px;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+#contacts > h3 {
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.description {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+}
+.footer_button {
+  border-radius: 60px;
+
+  width: 167px;
+  height: 38px;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 10px 0px 10px;
+}
+.footer_button > a {
+  color: white;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.images_footer > img {
+  margin: 10px 40px 30px 40px;
+}
+.comment {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  padding-bottom: 30px;
+}
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(gilroy-bold.ttf);
+}
+@font-face {
+  font-family: Gilroy-medium;
+  src: url(gilroy-medium.ttf);
+}
